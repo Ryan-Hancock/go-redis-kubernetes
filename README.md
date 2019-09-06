@@ -2,6 +2,8 @@
 
 Go with Redis storage implementation demo deployed with Kubernetes.
 
+The go application has a /inc endpoint which should increase the redis store each time hit.
+
 Follow minikube set up, once installed.
 ```
 eval $(minikube docker-env).
